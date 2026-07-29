@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
+// Main application component
 function App() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
